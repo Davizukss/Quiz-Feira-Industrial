@@ -262,7 +262,7 @@ body{
     }
 
 }
-@media (max-height: 480px)
+@media (min-height: 346px) and (max-height: 480px)
 {
    .quiz_box{
     height: 90vh;
@@ -280,11 +280,8 @@ body{
     font-size: 1.5rem;
     font-weight: 500;
 }
-.bar{
-    height: 4vh;
-}
 .bar div{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 .iconI,img{
     max-width: 200px;
@@ -297,7 +294,6 @@ body{
     width: 100%;
 }
 .quiz_box section .listaq{
-    padding: 0px 0px;
     font-size: 0.8rem;
 
 }
@@ -305,4 +301,10 @@ body{
     width: 100%;
     height: 90%;
 }
+}
+@media (max-height: 345px)
+{
+    *{
+        display: none;
+    }
 }
