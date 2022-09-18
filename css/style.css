@@ -105,7 +105,7 @@ body{
     text-align: center;
 }
 .quiz_box header{
-    height: 6.5vh;
+    max-height: 6.5vh;
     padding: 0 30px;
     box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1);
 }
@@ -224,8 +224,85 @@ body{
     pointer-events: auto;
 }
 
-@media (max-height: 620px){
+@media (max-height: 640px){
     .quiz_box{
-        height: 90%;
+        height: 90vh;
     }
+
+    .quiz_box .listaq .opcao{
+        height: 8vh;
+    }
+    .quiz_box header .titulo{
+        font-size: 1.2rem;
+    }
+    .quiz_box section .questao{
+        margin-top: -20px;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .bar{
+        height: 4vh;
+    }
+    .bar div{
+        font-size: 0.8rem;
+    }
+    .iconI,img{
+        max-width: 200px;
+        width: 100%;
+        height:auto;
+    }
+    .icon img{
+        max-width: 300px;
+        width: 100%;
+    }
+    .quiz_box section .listaq{
+        padding: 0px 0px;
+        font-size: 0.8rem;
+    
+    }
+
+}
+@media (max-height: 480px)
+{
+   .quiz_box{
+    height: 90vh;
+}
+
+.quiz_box .listaq .opcao{
+    margin-bottom: 2%;
+    height: 10vh;
+}
+.quiz_box header .titulo{
+    font-size: 1.2rem;
+}
+.quiz_box section .questao{
+    margin-top: -20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.bar{
+    height: 4vh;
+}
+.bar div{
+    font-size: 0.5rem;
+}
+.iconI,img{
+    max-width: 200px;
+    width: 100%;
+    height:auto;
+}
+.icon img{
+    height: 50vh;
+    max-width: 300px;
+    width: 100%;
+}
+.quiz_box section .listaq{
+    padding: 0px 0px;
+    font-size: 0.8rem;
+
+}
+.box_name{
+    width: 100%;
+    height: 90%;
+}
 }
