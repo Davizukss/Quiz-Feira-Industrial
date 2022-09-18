@@ -330,3 +330,15 @@ body{
     height: 90%;
 }
 }
+@media (max-width: 400px){
+    .btn_jogar{
+        max-width: 90vw;
+    }
+    .buttons button.restart{
+        max-width: 40vw;
+        width: 100%;
+    }
+    .buttons button.sair{
+        max-width: 40vw;
+    }
+}
