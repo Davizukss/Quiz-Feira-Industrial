@@ -135,10 +135,10 @@ body{
     text-align: start;
     margin-bottom: 15px;
     cursor: pointer;
-    border: 1px solid aqua;
+    border: 1px solid green;
     border-radius: 5px;
     padding: 10px 15px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 .listaq .opcao.disabled{
     pointer-events: none;
