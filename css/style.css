@@ -7,19 +7,31 @@
     user-select: none;
 }
 body{
-    background-color: aliceblue;
+    background-color:green;
+}
+.icon img{
+    height: 250px;
+}
+.iconI, .icon, img{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    height:auto;
 }
 .box_name{
     border-radius: 10px;
     text-align: center;
     align-items: center;
     max-width: 95vw;
-    height: 50%;
+    max-height: 90vh;
     width: 100%;
-    background-color: #ababaa;
+    height: 80%;
+    background-color: white;
 }
 .nome_user{
-    margin-top: 5vh;
+    margin-top: -5vh;
     border: 1px solid black;
     padding: 3vh 3vh;;
     opacity: 1;
@@ -54,7 +66,7 @@ body{
     border-radius: 10px;
     background-color: #222;
 }
-.box_name, .quiz_box, .result_box,.btn_jogar{
+.box_name, .quiz_box, .result_box{
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -62,6 +74,7 @@ body{
 }
 
 .btn_jogar{
+    margin: 0 auto;
     margin-top: 2vh;
     opacity: 1;
     height: auto;
@@ -70,13 +83,14 @@ body{
     border-radius: 5px;
 }
 .btn_jogar button{
-    color: #000000;
+    background-color: rgb(5, 172, 5);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 500;
     padding: 15px 30px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
 }
 .quiz_box{
@@ -158,7 +172,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    color: #34eb5b;
+    color: green;
     border-color: #34eb5b;
 }
 .buttons button.sair{
@@ -168,7 +182,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    background-color: #34eb5b;
+    background-color: green;
     color: white;
     border-color: #34eb5b;
 }
