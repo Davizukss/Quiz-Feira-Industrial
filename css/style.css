@@ -223,12 +223,25 @@ body{
     opacity: 1;
     pointer-events: auto;
 }
-
-@media (max-height: 640px){
+@media (max-height: 599px)
+{
+    *{
+        overflow-y: auto;
+    }
+    .quiz_box{
+        max-height: 70vh;
+    }
+    .icon img{
+        display: none;
+    }
+    .result_box{
+        max-height: 70vh;
+    }
+} 
+@media (max-height: 700px){
     .quiz_box{
         height: 90vh;
     }
-
     .quiz_box .listaq .opcao{
         height: 8vh;
     }
@@ -261,6 +274,21 @@ body{
     
     }
 
+}
+@media (max-width: 200px )
+{
+    .buttons button.restart{
+        max-width: 300px;
+        width: 60%;
+    }
+    .buttons button.sair{
+        max-width: 85px;
+        width: 100%;
+    }
+ .btn_jogar{
+    max-width: 70vw;
+    width: 100%;
+ }   
 }
 @media (min-height: 346px) and (max-height: 480px)
 {
@@ -301,10 +329,4 @@ body{
     width: 100%;
     height: 90%;
 }
-}
-@media (max-height: 345px)
-{
-    *{
-        display: none;
-    }
 }
