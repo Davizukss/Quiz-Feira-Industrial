@@ -128,7 +128,7 @@ function mostrarResultBox() {
     barra.classList.remove("barraAtiva");
     const pontuacaoTexto = result_box.querySelector(".pontuacao");
     if (pontuacao > 3) {
-        let pontuacaoTag = 'Você é Genial ' + nomeUser.value + ' Acertou ' + pontuacao +' de 5! Muito Bem 😎!';
+        let pontuacaoTag = 'Você é Genial ' + nomeUser.value + ' Acertou ' + pontuacao +' de 5! Muito Bem 🗿🍷!';
         pontuacaoTexto.innerHTML = pontuacaoTag;
     }
     else if (pontuacao > 1) {
