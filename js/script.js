@@ -8,6 +8,7 @@ const barra = document.querySelector(".bar");
 const barraA = document.querySelector(".dentroBarra");
 const box_name = document.querySelector(".box_name");
 const nomeUser = box_name.querySelector(".nome_user");
+document.getElementById
 var progresso = 1
 var porc = 10;
 let pontuacao = 0;
