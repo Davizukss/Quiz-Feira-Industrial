@@ -57,7 +57,7 @@ btn_jogar.onclick = () => {
 function mostrarQuestao(index) {
     const textQuestao = document.querySelector(".questao");
 
-    let titulo_Questao = '<span>' + questoes[index].ordem + ". " + questoes[index].questao + '</span>';
+    let titulo_Questao = '<span>' + questoes[index].ordem + ". " + questoes[index].questao +'</span>';
     let listaq = '<div class="opcao"><span>' + questoes[index].opcoes[0] + '</span></div>'
         + '<div class="opcao"><span>' + questoes[index].opcoes[1] + '</span></div>'
         + '<div class="opcao"><span>' + questoes[index].opcoes[2] + '</span></div>'
@@ -78,7 +78,7 @@ function mostrarQuestao(index) {
 function contadorQuestoes() {
 
     const contadorQuestao = quiz_box.querySelector(".total_questao");
-    let total_questao = '<span> ' + numeroquestao + ' de ' + questoes.length + ' Questões</span>';
+    let total_questao = '<span> ' + numeroquestao + ' de ' + questoes.length +'</span>';
     contadorQuestao.innerHTML = total_questao;}
 
 function qSelecionado(resposta) {
@@ -129,7 +129,7 @@ function mostrarResultBox() {
     barra.classList.remove("barraAtiva");
     const pontuacaoTexto = result_box.querySelector(".pontuacao");
     if (pontuacao > 3) {
-        let pontuacaoTag = 'Você é Genial ' + nomeUser.value + ' Acertou ' + pontuacao +' de 5! Muito Bem 🗿🍷!';
+        let pontuacaoTag = 'Você é Genial ' + nomeUser.value + ' Acertou ' + pontuacao +' de 5! Muito Bem  🗿🍷!';
         pontuacaoTexto.innerHTML = pontuacaoTag;
     }
     else if (pontuacao > 1) {
