@@ -38,7 +38,7 @@ let questoes =[
     },
     {
         ordem: 4,
-        questao: "O que o setor de NÃO marketing faz?",
+        questao: "O que o setor de marketing NÃO faz?",
         resposta: "Gerencias vendas e preferências do público",
         opcoes:[
             "Planejamento da comunicação da empresa",
